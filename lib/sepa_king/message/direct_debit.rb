@@ -20,6 +20,7 @@ module SEPA
         local_instrument: transaction.local_instrument,
         sequence_type:    transaction.sequence_type,
         batch_booking:    transaction.batch_booking,
+        instruction:      transaction.instruction,
         account:          transaction.creditor_account || account
       }
     end
